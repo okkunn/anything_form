@@ -40,6 +40,10 @@
 						<dt>メールアドレス</dt>
 						<dd><?php $ctl->esPrint($post["mail"]); ?></dd>
 					</dl>
+					<dl class="clearfix">
+						<dt>電話番号</dt>
+						<dd><?php $ctl->esPrint($post["tel"]); ?></dd>
+					</dl>
 					<div class="buttonArea clearfix">
 						<a class="backBtn" href="./index.php?back=1">戻る</a>
 						<input class="nextBtn conf" type="submit" value="送信する" />

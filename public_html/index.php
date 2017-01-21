@@ -54,6 +54,20 @@
 						<p class="error"><?php $ctl->esPrint($error["mail"]); ?></p>
 					</dd>
 				</dl>
+				<dl class="clearfix">
+					<dt class="clearfix">メールアドレス（確認）<span class="require">※</span></dt>
+					<dd>
+						<input class="w450" type="text" name="mail_conf" value="<?php $ctl->esPrint($input["mail_conf"]); ?>" />
+						<p class="error"><?php $ctl->esPrint($error["mail_conf"]); ?></p>
+					</dd>
+				</dl>
+				<dl class="clearfix">
+					<dt class="clearfix">電話番号<span class="require">※</span></dt>
+					<dd>
+						<input class="w450" type="text" name="tel" value="<?php $ctl->esPrint($input["tel"]); ?>" />
+						<p class="error"><?php $ctl->esPrint($error["tel"]); ?></p>
+					</dd>
+				</dl>
 				<div class="buttonArea">
 					<input class="nextBtn" type="submit" value="確認する" />
 				</div>

@@ -36,6 +36,21 @@
 							'Mail'  => '1',
 						),
 					),
+					'mail_conf' => array(
+						'itemName' => 'メールアドレス（確認）',
+						'checkList' => array(
+							'NotEmpty'  => '1',
+							'Mail'  => '1',
+							'Equal'  => 'mail',
+						),
+					),
+					'tel' => array(
+						'itemName' => '電話番号',
+						'checkList' => array(
+							'NotEmpty'  => '1',
+							'Tel' => '1',
+						),
+					),
 		);
 		return $fconfig;
 	}
